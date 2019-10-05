@@ -21,7 +21,7 @@ class App extends React.Component {
   render() {
       const {todos} = this.state;
       const todosDisplay = todos.map((todo) => {
-        return <li key={todo.id}>{todo.name}</li>
+        return <li key={todo.id}>ID: {todo.id} | Name: {todo.name}</li>
       })
     return(
       <ul>
