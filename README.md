@@ -16,3 +16,6 @@ def lambda_handler(event, context):
         'body': json.dumps(todos)
     }
 ```
+
+### Old State
+Uses non-hook state still.
